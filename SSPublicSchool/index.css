@@ -1,0 +1,47 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: aqua;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation */
+nav {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left section (logo + title) */
+nav div {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo */
+img {
+    height: 100%;
+}
+
+/* Menu list */
+ol {
+    height: 100%;
+    width: 60%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
